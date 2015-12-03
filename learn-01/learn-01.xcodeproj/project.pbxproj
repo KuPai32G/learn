@@ -14,6 +14,7 @@
 		ADE81EB91C103DCD009899B7 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE81EB81C103DCD009899B7 /* MessageViewController.m */; };
 		ADE81EBC1C103DE5009899B7 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE81EBB1C103DE5009899B7 /* DiscoverViewController.m */; };
 		ADE81EBF1C103DF7009899B7 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE81EBE1C103DF7009899B7 /* MyViewController.m */; };
+		ADE81EDD1C1045E0009899B7 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE81EDC1C1045E0009899B7 /* mainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		ADE81EBD1C103DF7009899B7 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		ADE81EBE1C103DF7009899B7 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		ADE81ECA1C103F31009899B7 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		ADE81EDB1C1045E0009899B7 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		ADE81EDC1C1045E0009899B7 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				ADE81EBB1C103DE5009899B7 /* DiscoverViewController.m */,
 				ADE81EBD1C103DF7009899B7 /* MyViewController.h */,
 				ADE81EBE1C103DF7009899B7 /* MyViewController.m */,
+				ADE81EDB1C1045E0009899B7 /* mainViewController.h */,
+				ADE81EDC1C1045E0009899B7 /* mainViewController.m */,
 				ADE81EA91C103D4C009899B7 /* Assets.xcassets */,
 				ADE81EAE1C103D4C009899B7 /* Info.plist */,
 				ADE81E9D1C103D4C009899B7 /* Supporting Files */,
@@ -163,6 +168,7 @@
 				ADE81EA21C103D4C009899B7 /* AppDelegate.m in Sources */,
 				ADE81E9F1C103D4C009899B7 /* main.m in Sources */,
 				ADE81EB91C103DCD009899B7 /* MessageViewController.m in Sources */,
+				ADE81EDD1C1045E0009899B7 /* mainViewController.m in Sources */,
 				ADE81EB61C103DAB009899B7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +297,7 @@
 				ADE81EB31C103D4C009899B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
