@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-
 #import "Header.h"
 @interface AppDelegate ()
 
@@ -26,15 +25,17 @@
     
     HomeViewController *home = [[HomeViewController alloc]init];
     
-    [self addChildViewController:home title:@"主页" image:@"main_highlight" selectedImage:@"main_normal"];
+    [self addChildViewController:home title:@"主页" image:@"tabbar_home" selectedImage:@"tabbar_home_selected"];
     
     MessageViewController *message = [[MessageViewController alloc]init];
-    [self addChildViewController:message title:@"消息" image:@"function_highlight" selectedImage:@"function_normal"];
+    [self addChildViewController:message title:@"消息" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
+    DiscoverViewController *discover = [[DiscoverViewController alloc]init];
+    [self addChildViewController:discover title:@"发现" image:@"tabbar_discover" selectedImage:@"tabbar_discover_selected"];
+    MyViewController *my = [[MyViewController alloc]init];
+    [self addChildViewController:my title:@"我" image:@"tabbar_profile" selectedImage:@"tabbar_profile_selected"];
+    tabBar.viewControllers = @[home,message,discover,my];
     
-    [tabBar addChildViewController:home];
-    [tabBar addChildViewController:message];
     [self.window makeKeyAndVisible];
-
     return YES;
 }
 -(void)addChildViewController:(UIViewController *)controller title:(NSString *)title image:(NSString*)image selectedImage:(NSString *)selectedImage{

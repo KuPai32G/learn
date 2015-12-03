@@ -14,10 +14,6 @@
 		ADE81EB91C103DCD009899B7 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE81EB81C103DCD009899B7 /* MessageViewController.m */; };
 		ADE81EBC1C103DE5009899B7 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE81EBB1C103DE5009899B7 /* DiscoverViewController.m */; };
 		ADE81EBF1C103DF7009899B7 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE81EBE1C103DF7009899B7 /* MyViewController.m */; };
-		ADE81EC41C103E86009899B7 /* function_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE81EC21C103E85009899B7 /* function_highlight@2x.png */; };
-		ADE81EC51C103E86009899B7 /* function_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE81EC31C103E86009899B7 /* function_normal@2x.png */; };
-		ADE81EC81C103E8C009899B7 /* main_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE81EC61C103E8C009899B7 /* main_highlight@2x.png */; };
-		ADE81EC91C103E8C009899B7 /* main_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE81EC71C103E8C009899B7 /* main_normal@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +31,6 @@
 		ADE81EBB1C103DE5009899B7 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		ADE81EBD1C103DF7009899B7 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		ADE81EBE1C103DF7009899B7 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		ADE81EC21C103E85009899B7 /* function_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_highlight@2x.png"; sourceTree = "<group>"; };
-		ADE81EC31C103E86009899B7 /* function_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_normal@2x.png"; sourceTree = "<group>"; };
-		ADE81EC61C103E8C009899B7 /* main_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_highlight@2x.png"; sourceTree = "<group>"; };
-		ADE81EC71C103E8C009899B7 /* main_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_normal@2x.png"; sourceTree = "<group>"; };
 		ADE81ECA1C103F31009899B7 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,10 +64,7 @@
 		ADE81E9C1C103D4C009899B7 /* learn-01 */ = {
 			isa = PBXGroup;
 			children = (
-				ADE81EC61C103E8C009899B7 /* main_highlight@2x.png */,
-				ADE81EC71C103E8C009899B7 /* main_normal@2x.png */,
-				ADE81EC21C103E85009899B7 /* function_highlight@2x.png */,
-				ADE81EC31C103E86009899B7 /* function_normal@2x.png */,
+				ADE81ECA1C103F31009899B7 /* Header.h */,
 				ADE81EA01C103D4C009899B7 /* AppDelegate.h */,
 				ADE81EA11C103D4C009899B7 /* AppDelegate.m */,
 				ADE81EB41C103DAB009899B7 /* HomeViewController.h */,
@@ -89,7 +78,6 @@
 				ADE81EA91C103D4C009899B7 /* Assets.xcassets */,
 				ADE81EAE1C103D4C009899B7 /* Info.plist */,
 				ADE81E9D1C103D4C009899B7 /* Supporting Files */,
-				ADE81ECA1C103F31009899B7 /* Header.h */,
 			);
 			path = "learn-01";
 			sourceTree = "<group>";
@@ -159,11 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE81EC51C103E86009899B7 /* function_normal@2x.png in Resources */,
 				ADE81EAA1C103D4C009899B7 /* Assets.xcassets in Resources */,
-				ADE81EC81C103E8C009899B7 /* main_highlight@2x.png in Resources */,
-				ADE81EC41C103E86009899B7 /* function_highlight@2x.png in Resources */,
-				ADE81EC91C103E8C009899B7 /* main_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
