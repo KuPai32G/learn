@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  learn-1-01
+//  learn-01
 //
 //  Created by 蝌蚪豪思 on 15/12/3.
 //  Copyright © 2015年 LJP. All rights reserved.
@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 
+#import "Header.h"
 @interface AppDelegate ()
 
 @end
@@ -23,16 +24,17 @@
     self.window.rootViewController = tabBar;
     tabBar.view.backgroundColor = [UIColor whiteColor];
     
-
-    UIViewController *home = [[UIViewController alloc]init];
+    HomeViewController *home = [[HomeViewController alloc]init];
+    
     [self addChildViewController:home title:@"主页" image:@"main_highlight" selectedImage:@"main_normal"];
     
-    UIViewController *message = [[UIViewController alloc]init];
+    MessageViewController *message = [[MessageViewController alloc]init];
     [self addChildViewController:message title:@"消息" image:@"function_highlight" selectedImage:@"function_normal"];
     
     [tabBar addChildViewController:home];
     [tabBar addChildViewController:message];
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 -(void)addChildViewController:(UIViewController *)controller title:(NSString *)title image:(NSString*)image selectedImage:(NSString *)selectedImage{
@@ -48,8 +50,9 @@
     dict1[NSForegroundColorAttributeName]=[UIColor orangeColor];
     [controller.tabBarItem setTitleTextAttributes:dict forState:UIControlStateNormal];
     [controller.tabBarItem setTitleTextAttributes:dict1 forState:UIControlStateSelected];
-
+    
 }
+
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ADD993631C0FCFD200C5C0DE"
-               BuildableName = "learn-1-01.app"
-               BlueprintName = "learn-1-01"
-               ReferencedContainer = "container:learn-1-01.xcodeproj">
+               BlueprintIdentifier = "ADE81E991C103D4C009899B7"
+               BuildableName = "learn-01.app"
+               BlueprintName = "learn-01"
+               ReferencedContainer = "container:learn-01.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ADD993631C0FCFD200C5C0DE"
-            BuildableName = "learn-1-01.app"
-            BlueprintName = "learn-1-01"
-            ReferencedContainer = "container:learn-1-01.xcodeproj">
+            BlueprintIdentifier = "ADE81E991C103D4C009899B7"
+            BuildableName = "learn-01.app"
+            BlueprintName = "learn-01"
+            ReferencedContainer = "container:learn-01.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ADD993631C0FCFD200C5C0DE"
-            BuildableName = "learn-1-01.app"
-            BlueprintName = "learn-1-01"
-            ReferencedContainer = "container:learn-1-01.xcodeproj">
+            BlueprintIdentifier = "ADE81E991C103D4C009899B7"
+            BuildableName = "learn-01.app"
+            BlueprintName = "learn-01"
+            ReferencedContainer = "container:learn-01.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ADD993631C0FCFD200C5C0DE"
-            BuildableName = "learn-1-01.app"
-            BlueprintName = "learn-1-01"
-            ReferencedContainer = "container:learn-1-01.xcodeproj">
+            BlueprintIdentifier = "ADE81E991C103D4C009899B7"
+            BuildableName = "learn-01.app"
+            BlueprintName = "learn-01"
+            ReferencedContainer = "container:learn-01.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
