@@ -2,7 +2,6 @@
 //  AppDelegate.m
 //  learn-01
 //
-//  Created by 蝌蚪豪思 on 15/12/3.
 //  Copyright © 2015年 LJP. All rights reserved.
 //
 
@@ -20,6 +19,7 @@
     // 设置主视图控制器
     self.window = [[UIWindow alloc]init];
     self.window.frame = [UIScreen mainScreen].bounds;
+    
     mainViewController *tabBar = [[mainViewController alloc]init];
     self.window.rootViewController = tabBar;
     
