@@ -11,6 +11,10 @@
 @implementation TestViewController
 - (void)viewDidLoad{
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    }
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)even{
+    
+}
 @end

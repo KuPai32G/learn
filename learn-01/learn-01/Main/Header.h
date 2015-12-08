@@ -5,13 +5,15 @@
 //  Copyright © 2015年 LJP. All rights reserved.
 //
 
-#ifndef Header_h
-#define Header_h
 #import "HomeViewController.h"
 #import "MessageViewController.h"
 #import "DiscoverViewController.h"
 #import "MyViewController.h"
 #import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
 
-
+#ifdef DEBUG
+#define LJPLog(...) NSLog(__VA_ARGS__)
+#else
+#define LJPLog(...)
 #endif /* Header_h */

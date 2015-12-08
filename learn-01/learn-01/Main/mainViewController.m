@@ -50,7 +50,6 @@
     
     [controller.tabBarItem setTitleTextAttributes:dict forState:UIControlStateNormal];
     [controller.tabBarItem setTitleTextAttributes:dict1 forState:UIControlStateSelected];
-    controller.view.backgroundColor = [UIColor whiteColor];
     // 给传进来的视图控制器包装一个导航控制器
     BaseNavigationController *nav = [[BaseNavigationController alloc]initWithRootViewController:controller];
     // 添加子视图控制器

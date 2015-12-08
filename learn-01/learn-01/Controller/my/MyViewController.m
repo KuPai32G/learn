@@ -6,10 +6,11 @@
 //
 
 #import "MyViewController.h"
-
+#import "TestViewController.h"
 @implementation MyViewController
 - (void)viewDidLoad{
     [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"设置" style:0 target:self action:@selector(setting)];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -29,5 +30,8 @@
     return cell;
     
 }
-
+- (void)setting{
+    TestViewController *test = [[TestViewController alloc]init];
+    [self.navigationController pushViewController:test animated:YES];
+}
 @end

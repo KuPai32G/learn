@@ -7,10 +7,15 @@
 
 #import "HomeViewController.h"
 #import "TestViewController.h"
+#import "Header.h"
 @implementation HomeViewController
 
 - (void)viewDidLoad{
     [super viewDidLoad];
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(addClick) image:@"navigationbar_friendsearch" hightImage:@"navigationbar_friendsearch_highlighted"];
+    
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(scanClick) image:@"navigationbar_pop" hightImage:@"navigationbar_pop_highlighted"];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -33,7 +38,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
     TestViewController *test = [[TestViewController alloc]init];
-    test.hidesBottomBarWhenPushed = YES;
+    test.title = @"";
     [self.navigationController pushViewController:test animated:YES];
+}
+- (void)addClick{
+    LJPLog(@"测试");
+}
+- (void)scanClick{
+    
 }
 @end

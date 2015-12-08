@@ -1,15 +1,18 @@
 //
-//  MessageViewController.m
+//  DiscoverViewController.m
 //  learn-01
 //
 //  Copyright © 2015年 LJP. All rights reserved.
 //
 
-#import "MessageViewController.h"
+#import "DiscoverViewController.h"
 
-@implementation MessageViewController
+@implementation DiscoverViewController
 - (void)viewDidLoad{
     [super viewDidLoad];
+    UISearchBar *search = [[UISearchBar alloc]init];
+    search.scopeBarBackgroundImage = [UIImage imageNamed:@"searchbar_textfield_background"];
+    self.navigationItem.titleView = search;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -25,10 +28,12 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellName];
         
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"text-message%ld",indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"text-discover%ld",indexPath.row];
 
     return cell;
     
 }
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+}
 @end
