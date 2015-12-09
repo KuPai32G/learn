@@ -11,7 +11,7 @@
 #import "MyViewController.h"
 #import "UIView+Extension.h"
 #import "UIBarButtonItem+Extension.h"
-
+#import "HSSearchBar.h"
 #ifdef DEBUG
 #define LJPLog(...) NSLog(__VA_ARGS__)
 #else

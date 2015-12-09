@@ -6,13 +6,17 @@
 //
 
 #import "DiscoverViewController.h"
-
+#import "Header.h"
 @implementation DiscoverViewController
 - (void)viewDidLoad{
-    [super viewDidLoad];
-    UISearchBar *search = [[UISearchBar alloc]init];
-    search.scopeBarBackgroundImage = [UIImage imageNamed:@"searchbar_textfield_background"];
+   [super viewDidLoad];
+    
+    HSSearchBar *search = [HSSearchBar searchBar];
+    search.width = self.view.frame.size.width-20;
+    search.height = 30;
     self.navigationItem.titleView = search;
+
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

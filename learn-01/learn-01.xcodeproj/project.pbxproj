@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8B090F4E1C107C310012D943 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B090F4D1C107C310012D943 /* Default-568h@2x.png */; };
+		AD1D71091C1816E600118C26 /* searchbar_textfield_search_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1D71081C1816E500118C26 /* searchbar_textfield_search_icon@2x.png */; };
+		AD1D710C1C181A1900118C26 /* HSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1D710B1C181A1900118C26 /* HSSearchBar.m */; };
 		AD99D3511C167844001E78AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD99D3501C167844001E78AD /* Info.plist */; };
 		AD99D35A1C16A12E001E78AD /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD99D3591C16A12E001E78AD /* UIBarButtonItem+Extension.m */; };
 		AD99D35C1C16BC06001E78AD /* searchbar_textfield_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD99D35B1C16BC06001E78AD /* searchbar_textfield_background@2x.png */; };
@@ -44,10 +46,13 @@
 
 /* Begin PBXFileReference section */
 		8B090F4D1C107C310012D943 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD1D71081C1816E500118C26 /* searchbar_textfield_search_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchbar_textfield_search_icon@2x.png"; sourceTree = "<group>"; };
+		AD1D710A1C181A1900118C26 /* HSSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSearchBar.h; sourceTree = "<group>"; };
+		AD1D710B1C181A1900118C26 /* HSSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSearchBar.m; sourceTree = "<group>"; };
 		AD99D3501C167844001E78AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD99D3581C16A12E001E78AD /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		AD99D3591C16A12E001E78AD /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
-		AD99D35B1C16BC06001E78AD /* searchbar_textfield_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchbar_textfield_background@2x.png"; sourceTree = "<group>"; };
+		AD99D35B1C16BC06001E78AD /* searchbar_textfield_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "searchbar_textfield_background@2x.png"; path = "Iamges/searchbar_textfield_background@2x.png"; sourceTree = "<group>"; };
 		ADE81E9A1C103D4C009899B7 /* learn-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learn-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE81EA91C103D4C009899B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF19FC81C1674C900D1B664 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
@@ -128,6 +133,7 @@
 				ADF19FF81C1674C900D1B664 /* Other */,
 				ADF19FFB1C1674C900D1B664 /* View */,
 				ADE81EA91C103D4C009899B7 /* Assets.xcassets */,
+				AD99D35B1C16BC06001E78AD /* searchbar_textfield_background@2x.png */,
 				ADE81E9D1C103D4C009899B7 /* Supporting Files */,
 			);
 			path = "learn-01";
@@ -191,7 +197,7 @@
 		ADF19FD31C1674C900D1B664 /* Iamges */ = {
 			isa = PBXGroup;
 			children = (
-				AD99D35B1C16BC06001E78AD /* searchbar_textfield_background@2x.png */,
+				AD1D71081C1816E500118C26 /* searchbar_textfield_search_icon@2x.png */,
 				8B090F4D1C107C310012D943 /* Default-568h@2x.png */,
 				ADF19FD41C1674C900D1B664 /* navigationbar_arrow_down@2x.png */,
 				ADF19FD51C1674C900D1B664 /* navigationbar_arrow_up@2x.png */,
@@ -237,6 +243,8 @@
 				ADF19FF21C1674C900D1B664 /* UIView+Extension.m */,
 				AD99D3581C16A12E001E78AD /* UIBarButtonItem+Extension.h */,
 				AD99D3591C16A12E001E78AD /* UIBarButtonItem+Extension.m */,
+				AD1D710A1C181A1900118C26 /* HSSearchBar.h */,
+				AD1D710B1C181A1900118C26 /* HSSearchBar.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -394,6 +402,7 @@
 				ADF1A0121C1674CA00D1B664 /* tabbar_message_center@2x.png in Resources */,
 				ADF1A0101C1674CA00D1B664 /* tabbar_home@2x.png in Resources */,
 				ADF1A0141C1674CA00D1B664 /* tabbar_profile@2x.png in Resources */,
+				AD1D71091C1816E600118C26 /* searchbar_textfield_search_icon@2x.png in Resources */,
 				ADF1A00D1C1674CA00D1B664 /* navigationbar_pop_highlighted@2x.png in Resources */,
 				ADF1A00B1C1674CA00D1B664 /* navigationbar_more_highlighted@2x.png in Resources */,
 				8B090F4E1C107C310012D943 /* Default-568h@2x.png in Resources */,
@@ -419,6 +428,7 @@
 			files = (
 				AD99D35A1C16A12E001E78AD /* UIBarButtonItem+Extension.m in Sources */,
 				ADF1A01B1C1674CA00D1B664 /* UIView+Extension.m in Sources */,
+				AD1D710C1C181A1900118C26 /* HSSearchBar.m in Sources */,
 				ADF1A0171C1674CA00D1B664 /* BaseNavigationController.m in Sources */,
 				ADF1A0001C1674CA00D1B664 /* DiscoverViewController.m in Sources */,
 				ADF1A0161C1674CA00D1B664 /* AppDelegate.m in Sources */,

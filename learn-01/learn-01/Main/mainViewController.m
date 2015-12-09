@@ -33,7 +33,10 @@
  *  @param image         未选中时的图标
  *  @param selectedImage 选中时的图标
  */
--(void)addChildViewController:(UIViewController *)controller title:(NSString *)title image:(NSString*)image selectedImage:(NSString *)selectedImage{
+-(void)addChildViewController:(UIViewController *)controller
+                        title:(NSString *)title
+                        image:(NSString *)image
+                selectedImage:(NSString *)selectedImage{
     
 //    controller.tabBarItem.title = title;
 //    controller.navigationItem.title = title;
