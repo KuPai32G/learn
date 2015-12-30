@@ -10,7 +10,6 @@
 		8B090F4E1C107C310012D943 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B090F4D1C107C310012D943 /* Default-568h@2x.png */; };
 		AD1D71091C1816E600118C26 /* searchbar_textfield_search_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD1D71081C1816E500118C26 /* searchbar_textfield_search_icon@2x.png */; };
 		AD1D710C1C181A1900118C26 /* HSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1D710B1C181A1900118C26 /* HSSearchBar.m */; };
-		AD99D3511C167844001E78AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD99D3501C167844001E78AD /* Info.plist */; };
 		AD99D35A1C16A12E001E78AD /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD99D3591C16A12E001E78AD /* UIBarButtonItem+Extension.m */; };
 		AD99D35C1C16BC06001E78AD /* searchbar_textfield_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD99D35B1C16BC06001E78AD /* searchbar_textfield_background@2x.png */; };
 		ADE81EAA1C103D4C009899B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE81EA91C103D4C009899B7 /* Assets.xcassets */; };
@@ -362,7 +361,7 @@
 		ADE81E921C103D4C009899B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LJP;
 				TargetAttributes = {
 					ADE81E991C103D4C009899B7 = {
@@ -415,7 +414,6 @@
 				ADF1A0041C1674CA00D1B664 /* navigationbar_arrow_down@2x.png in Resources */,
 				ADF1A0081C1674CA00D1B664 /* navigationbar_friendsearch@2x.png in Resources */,
 				ADF1A0071C1674CA00D1B664 /* navigationbar_back_highlighted@2x.png in Resources */,
-				AD99D3511C167844001E78AD /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
